@@ -1,4 +1,4 @@
-# 💼 The Essential Studio: Responsive Web Design Project
+# 💼 The Clarity Launch: Basic Package
 This repository contains the source code for a responsive, single-page marketing website for a fictional photography and design studio. This project demonstrates core front-end skills in layout, styling, and navigation.
 
 ## 🔗 Live Site
