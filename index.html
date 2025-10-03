@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pasture Trust - Protect, Preserve, Provide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Define Inter as the primary font and set responsive base size */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        /* Custom class for the primary button color palette */
+        .btn-primary {
+            background-color: #38a169; /* Green 600 */
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-primary:hover {
+            background-color: #276749; /* Green 800 */
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        /* Custom grass texture effect for the hero section */
+       .hero-bg {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .5) 80%, rgba(255, 255, 255, 0.9) 20%), 
+                        url('https://i.ibb.co/Q3cH31QK/b12cf25d-08f6-4d9e-9e30-99c7bc484850.jpg') center/cover;
+    background-blend-mode: multiply;
+}
+    </style>
+</head>
+<body class="antialiased">
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2">
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+                <span class="text-xl font-extrabold text-gray-800">The Pasture Trust</span>
+            </a>
+            <button class="btn-primary text-white font-bold py-2 px-6 rounded-full shadow-md hover:shadow-xl transition duration-300">
+                Donate Now
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero-bg py-24 md:py-40 text-center relative overflow-hidden">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white/80 leading-tight mb-6">
+                    Preserving the Silence of the Prairie.
+                </h1>
+                <p class="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto mb-10">
+                    We work to protect and restore native North American grasslands—vital ecosystems for biodiversity and a sustainable future.
+                </p>
+                <button class="btn-primary text-white text-lg font-bold py-4 px-10 rounded-full shadow-2xl hover:shadow-3xl uppercase tracking-wider">
+                    Join the Movement: Donate Now
+                </button>
+            </div>
+            <svg class="absolute bottom-0 left-0 w-full h-16 text-white" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <path fill="currentColor" d="M0,6 C30,9 70,3 100,6 L100,10 L0,10 Z" />
+            </svg>
+        </section>
+        <section id="mission" class="py-16 md:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-3 lg:gap-12">
+                    <div class="lg:col-span-2 space-y-8">
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 border-b-4 border-green-300 pb-2 inline-block">
+                            Why the Pasture Trust Matters
+                        </h2>
+                        <p class="text-lg text-gray-600">
+                            Native grasslands are among the world's most threatened ecosystems, yet they are crucial for carbon sequestration, water retention, and supporting endangered species. The Pasture Trust acquires and manages these vital lands, ensuring they are protected from development forever.
+                        </p>
+                        <p class="text-lg text-gray-600">
+                            Your support doesn't just save land; it empowers sustainable grazing practices, funds educational programs for farmers, and provides necessary resources for essential habitat restoration. Every dollar directly supports the soil, the wildlife, and the future of our planet.
+                        </p>
+                    </div>
+                    <div class="mt-10 lg:mt-0 lg:col-span-1">
+                        <img src="https://i.ibb.co/LznPzbvf/7af173f1-d6f3-4b59-8480-fdb2a44cad8b.jpg" alt="Vast, preserved grassland landscape" class="rounded-2xl shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="impact" class="py-16 md:py-24 bg-green-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-extrabold text-green-800 mb-12">
+                    Our Impact Today
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.02]">
+                        <p class="text-5xl font-bold text-green-600 mb-2">25,000+</p>
+                        <p class="text-lg font-medium text-gray-700">Acres Protected</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.02]">
+                        <p class="text-5xl font-bold text-green-600 mb-2">48</p>
+                        <p class="text-lg font-medium text-gray-700">Native Species Restored</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-[1.02]">
+                        <p class="text-5xl font-bold text-green-600 mb-2">10 Years</p>
+                        <p class="text-lg font-medium text-gray-700">Of Dedicated Conservation</p>
+                    </div>
+                </div>
+                <div class="mt-16">
+                    <button class="btn-primary text-white text-xl font-bold py-4 px-12 rounded-full shadow-xl hover:shadow-2xl uppercase tracking-wider">
+                        Secure the Next 25,000 Acres
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-2xl font-bold mb-4">The Pasture Trust</h3>
+            <p class="text-gray-400 mb-6">
+                Protecting native grasslands for a healthier planet.
+            </p>
+            
+            <div class="flex justify-center space-x-6 text-sm mb-6">
+                <a href="#" class="hover:text-green-400 transition">Mission</a>
+                <a href="#" class="hover:text-green-400 transition">Financials</a>
+                <a href="#" class="hover:text-green-400 transition">Contact</a>
+            </div>
+
+            <p class="text-gray-500 text-sm">
+                &copy; 2024 The Pasture Trust. Mock Project for Clarity Launch Validation.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
